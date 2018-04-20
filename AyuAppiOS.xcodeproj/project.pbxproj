@@ -14,6 +14,7 @@
 		3A2A7FB0208A706900E8AC7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A7FAE208A706900E8AC7E /* LaunchScreen.storyboard */; };
 		3A2A7FBB208A706900E8AC7E /* AyuAppiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A7FBA208A706900E8AC7E /* AyuAppiOSTests.swift */; };
 		3A2A7FC6208A706900E8AC7E /* AyuAppiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A7FC5208A706900E8AC7E /* AyuAppiOSUITests.swift */; };
+		3A2A7FD6208A7C6400E8AC7E /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A7FD5208A7C6400E8AC7E /* NFCReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3A2A7FC1208A706900E8AC7E /* AyuAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AyuAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2A7FC5208A706900E8AC7E /* AyuAppiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyuAppiOSUITests.swift; sourceTree = "<group>"; };
 		3A2A7FC7208A706900E8AC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2A7FD5208A7C6400E8AC7E /* NFCReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3A2A7FA5208A706900E8AC7E /* AppDelegate.swift */,
 				3A2A7FA7208A706900E8AC7E /* ViewController.swift */,
+				3A2A7FD5208A7C6400E8AC7E /* NFCReader.swift */,
 				3A2A7FA9208A706900E8AC7E /* Main.storyboard */,
 				3A2A7FAC208A706900E8AC7E /* Assets.xcassets */,
 				3A2A7FAE208A706900E8AC7E /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				3A2A7FA8208A706900E8AC7E /* ViewController.swift in Sources */,
 				3A2A7FA6208A706900E8AC7E /* AppDelegate.swift in Sources */,
+				3A2A7FD6208A7C6400E8AC7E /* NFCReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
