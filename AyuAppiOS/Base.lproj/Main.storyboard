@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Continuar"/>
                                 <connections>
-                                    <segue destination="FjP-hk-2wx" kind="show" id="Ajj-iF-vRJ"/>
+                                    <segue destination="7Nb-vf-4CK" kind="show" id="snV-4r-uYF"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ayuimg" highlightedImage="ayuimg" translatesAutoresizingMaskIntoConstraints="NO" id="Skd-Bq-flO">
@@ -48,32 +48,43 @@
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="LJb-vZ-9Xp">
+        <!--View2 View Controller-->
+        <scene sceneID="4CP-XL-bhb">
             <objects>
-                <viewController id="FjP-hk-2wx" sceneMemberID="viewController">
+                <viewController id="7Nb-vf-4CK" customClass="View2ViewController" customModule="AyuAppiOS" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fip-h6-tdG"/>
-                        <viewControllerLayoutGuide type="bottom" id="FPi-Wj-Jz0"/>
+                        <viewControllerLayoutGuide type="top" id="Vsh-7c-BFL"/>
+                        <viewControllerLayoutGuide type="bottom" id="zIe-Da-KKx"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="KQh-uN-JbL">
+                    <view key="view" contentMode="scaleToFill" id="UZF-EB-yze">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Success" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lCN-Hf-ECM">
-                                <rect key="frame" x="152" y="162" width="97" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxi-0s-pHo">
+                                <rect key="frame" x="133" y="422" width="109" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="setlabel:" destination="7Nb-vf-4CK" eventType="touchDown" id="mWU-1M-Jyu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0I-c7-jmb">
+                                <rect key="frame" x="29" y="78" width="330" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="y0I-c7-jmb" id="cbn-Yl-7lx"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="I9W-Kw-TXy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GzC-fD-Ly1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="613" y="136"/>
+            <point key="canvasLocation" x="656.79999999999995" y="138.98050974512745"/>
         </scene>
     </scenes>
     <resources>
